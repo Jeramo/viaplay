@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Viaplay Notifications</title>
+      <!--<body onload="checkCookie()">-->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <link rel="stylesheet" type="text/css" href="viaplaycss.css"/>
+      <script   src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+   </head>
+   
+   <body>
+      <img src="https://lh4.ggpht.com/lV59ykAHkGspTZwU_UGWDQQq87eNUNRCBl7ZuDp3Hp7R6rXzmfNJB307hjYx4k1b-w8=w300"></img>
+	  
+      <h2 style="text-align: center;">Viaplay Notifications</h2>
+      <p style="text-align: center;">Everyone Happy</p>
+	  
+      <div id="button">
+         <button onclick="removeStorage()">Reset all</button>
+         <button onclick="goToGit()">Read me</button>
+      </div>
+	  
+      <div class="notification" value="first">
+         <span class="closebtn">Archive</span>  
+         <span class="seen"><span class="operation">Expand</span></span> 
+         <div class="title" id="frozen">
+            <strong>Frozen (2013)</strong> "Do you want to build a snowman?"
+         </div>
+         <span class="content" value="first">
+            <br/>
+            <iframe id="youtubeClip" src="https://www.youtube.com/embed/TbQm5doF_Uc" frameborder="0" allowfullscreen></iframe>
+            <p class="description" id="movieInfo">
+               Anna, a fearless optimist, sets off on an epic journey - 
+               teaming up with rugged mountain man Kristoff and his loyal reindeer Sven
+               - to find her sister Elsa, whose icy powers have trapped the kingdom of Arendelle in eternal winter. 
+               Encountering Everest-like conditions, mystical trolls and a hilarious snowman named Olaf, Anna 
+               and Kristoff battle the elements in a race to save the kingdom.
+            </p>
+            <p id="actors" style="font-weight: bold;">
+            <p>
+         </span>
+      </div>
+	  
+      <div class="notification">
+         <span class="closebtn">Archive</span>  
+         <span class="seen"><span class="operation">Expand</span></span>  
+         <div class="title">
+            <strong>We're updating!</strong> A brand new design och additional functions.
+         </div>
+         <span class="content second">
+         <p class="description">Go check out our latest update! Totally rad.</p> 
+      </div>
+	  
+      <div class="notification">
+         <span class="closebtn">Archive</span>  
+         <span class="seen"><span class="operation">Expand</span></span>  
+         <div class="title">
+            <strong>New season of The Walking Dead!</strong> Will Rick make it?
+         </div>
+         <span class="content third">
+         <p class="description">There's a new season out now.<br/>
+            Can't wait for the next episode? Learn more about the season at:<br/>
+            <a href="http://www.imdb.com/title/tt1520211/?ref_=fn_al_tt_1">IMDB</a>
+         </p>
+      </div>
+	  
+      <div class="notification">
+         <span class="closebtn">Archive</span>  
+         <span class="seen"><span class="operation">Expand</span></span>  
+         <div class="title">
+            <strong>Rio 2016.</strong> On-demand, live and cheap.
+         </div>
+         <span class="content fourth">
+         <img src="https://viasport-media.s3-eu-west-1.amazonaws.com/production/se/2016/01/160113_OS.mxf_.00_21_26_10.Still002.jpg" style="
+            width: 70%; height: 70%; margin-top: 20px; border-style: solid; border-width: 3px;"></img>
+         <p class="description">Starting this summer, Viaplay will stream the Olympic Games in Rio.</p>
+      </div>
+	  
+   </body>
+   <!--Scripts-->
+   <script src="viaplayjs.js"></script>
+</html>
