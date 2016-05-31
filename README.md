@@ -7,5 +7,11 @@ För denna uppgift användes HTML5, CSS3 och JS (ramverk jQuery) för att klara 
 # Designval
 Jag valde att använda mig av en minimalistisk design med enbart loggan, webbapplikationens namn samt notifikationerna. För att användaren skall kunna se om notifikationer öppnats eller ej, valde jag att använda mig av färgkoder. Röd färg symboliserar att notifikationen inte öppnats medan grön färg symboliserar att den öppnats. Samtlig innehåll i notifikationerna är centrerade för att hålla en konsekvent design. Bakgrunden har samma hexadecimala färgkod som Viaplays hemsida, #525252.
 
+Eftersom att sidan även skall användas på ett bekvämt sätt för mobila användare, är sidans samtliga innehåll anpassad efter den skärmstorlek som användarens enhet har. Dessa justeringar återfinns i CSS-filen.
+
 # HTML5 och localStorage
-Då uppgiften söker att användaren skall kunna stänga och öppna webbläsaren och ännu bemötas av sidan i det skick det lämnades i, används HTML5s 
+Då uppgiften söker att användaren skall kunna stänga och öppna webbläsaren och ännu bemötas av sidan i det skick det lämnades i, används localStorage som stöds i de flesta webbläsare med HTML5. Jag hade ursprungligen tänkt att använda mig av cookies, men eftersom att localStorage sparas direkt i webbläsaren och dessutom tillåter en större mängd data, blev localStorage det självklaraste valet.
+
+Information om användaren öppnat eller arkiverat (raderat från "huvudmenyn") sparas i webbläsaren och återfås även om användaren stänger ned fönstret eller startar om datorn. För att kunna radera all localStorage i webbläsaren finns knappen "Reset all" som återställer informationen.
+
+Denna funktion fungerar dock inte om användaren surfar genom en privat session eller inkognito.
