@@ -8,7 +8,7 @@ Användaren har möjlighet till att se fyra olika notifikationer på webbsidan. 
 För denna uppgift användes HTML5, CSS3 och JS (ramverk jQuery) för att klara av uppgiften. Andra teknologier så som JSON användes för att hämta data från en extern källa, som ett "proof-of-concept" där notifikationer kan hämtas från en tredje part. JSON användes endast för den första notifikationen från sidan http://www.omdbapi.com som tillhandahåller information om diverse filmer genom REST API.
 
 # Designval
-Jag valde att använda mig av en minimalistisk design med enbart loggan, webbapplikationens namn samt notifikationerna. För att användaren skall kunna se om notifikationer öppnats eller ej, valde jag att använda mig av färgkoder. Röd färg symboliserar att notifikationen inte öppnats medan grön färg symboliserar att den öppnats. Samtlig innehåll i notifikationerna är centrerade för att hålla en konsekvent design. Bakgrunden har samma hexadecimala färgkod som Viaplays hemsida, #525252.
+Jag valde att använda mig av en minimalistisk design med enbart loggan, webbapplikationens namn samt notifikationerna. För att användaren skall kunna se om notifikationer öppnats eller ej, valde jag att använda mig av färgkoder. Röd färg symboliserar att notifikationen inte öppnats medan grön färg symboliserar att den öppnats. Samtlig innehåll i notifikationerna är centrerade för att hålla en konsekvent design. Bakgrunden har samma hexadecimala färgkod som Viaplays hemsida, #525252. Sidan använder sig av fonten "Museo Slab".
 
 Eftersom att sidan även skall användas på ett bekvämt sätt för mobila användare, är sidans samtliga innehåll anpassad efter den skärmstorlek som användarens enhet har. Dessa justeringar återfinns i CSS-filen.
 
