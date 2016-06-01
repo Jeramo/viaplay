@@ -29,7 +29,6 @@ $(function() {
 
 var close = document.getElementsByClassName("closebtn");
 var expand = document.getElementsByClassName("seen");
-var button = document.getElementById("buttonRemove");
 
 arrRead = JSON.parse(localStorage.getItem("arr"));
 arrClosed = JSON.parse(localStorage.getItem("arrClose"));
