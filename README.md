@@ -20,4 +20,4 @@ Information om användaren öppnat eller arkiverat (raderat från "huvudmenyn") 
 Denna funktion fungerar dock inte om användaren surfar genom en privat session eller inkognito.
 
 # Test
-Denna webbapplikation har testats på iOS (9.0), Google Chrome (Version 51.0.2704.63) och Microsoft Edge (25.10586.0.0) och fungerar som ovan förklarat.
+Denna webbapplikation har testats på Safari (iOS 9.1), Google Chrome (Version 51.0.2704.63) och Microsoft Edge (25.10586.0.0) och fungerar som ovan förklarat.
