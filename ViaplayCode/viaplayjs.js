@@ -1,5 +1,5 @@
-
 var clicked;
+var isClicked= [];
 var isRead;
 var isClosed;
 var i;
@@ -115,7 +115,7 @@ for (i = 0; i < expand.length; i++)(function(i) {
 
 		
 		
-		if(clicked == true){
+		if(isClicked[i] == true){
 			
 			divChild.style.display="none";
 			divExpand.innerHTML = "Expand";
@@ -131,9 +131,9 @@ for (i = 0; i < expand.length; i++)(function(i) {
 			divExpand.innerHTML = "Minimize";
 		
 		}
-	
-        
 		
+		
+	  isClicked[i] = clicked;
 	  arrHasBeenRead[i] = isRead;
 
 	  localStorage.setItem("arr", JSON.stringify(arrHasBeenRead));
@@ -145,5 +145,4 @@ for (i = 0; i < expand.length; i++)(function(i) {
 		
 
 })(i);
-
 
