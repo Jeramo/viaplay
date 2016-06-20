@@ -1,5 +1,5 @@
 # Viaplay Notifications
-Denna webbapplikation är ett bidrag till Viaplay Young Dev. Program för år 2016. Uppgiften gjordes på totalt 7 timmar varav 1 timme användes till att justera och effektivisera kod. Webbapplikationen laddades upp på den privata webbsidan http://www.jeanrobert.se.
+Denna webbapplikation är ett bidrag till Viaplay Young Dev. Program för år 2016. Webbapplikationen laddades upp på den privata webbsidan http://www.jeanrobert.se.
 
 # Användning
 Användaren har möjlighet till att se fyra olika notifikationer på webbsidan. Användaren kan välja att arkivera (radera från "huvudmenyn"), öppna notifikationen och stänga den. I de olika notifikationerna finns diversierat innehåll som i två av fallen direkt går att interagera med. Informationen om användaren läst/arkiverat meddelandena sparas. Om användaren önskar radera all denna information för att starta på nytt, kan denne klicka på "Reset all". Om användaren vill ta del av källkoden till webbapplikationen, kan denne klicka på "Read me".
